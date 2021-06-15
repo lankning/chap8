@@ -55,7 +55,7 @@ jupyter notebook
 
 在浏览器界面中打开`Test.ipynb`文件，逐次点击页面上方的运行或者从上往下使用快捷键`Shift`+`Enter`执行所有代码块。
 
-![Test](static/test.png)
+![Test](static/Test.png)
 
 ## 5. 模型判断可视化
 
