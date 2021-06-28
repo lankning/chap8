@@ -55,7 +55,7 @@ def load_imgs(x_paths, cateList):
         img = Image.open(x_path)
         img_arr = np.array(img)/255
         img_arr = cv2.resize(img_arr, (224, 224), interpolation=cv2.INTER_NEAREST)
-        # img_arr = laplace_4(img_arr)
+        img_arr = laplace_4(img_arr)
         # img_arr = rotate_and_scale(img_arr)
         xList.append(img_arr)
         cate = x_path.split("\\")[-2]
